@@ -61,7 +61,7 @@ function nextSong() {
   songIndex++;
 
   if (songIndex > songs.length - 1) {
-    songIndex = songs.length - 1;
+    songIndex = 0;
   }
 
   loadSong(songs[songIndex]);
